@@ -3,13 +3,15 @@ Note taking MERN CRUD app .
 
 
 ### Backend
-          As the backend is deployed so backend folder is only to understand the endpoints. No affect if skip the backend folder.
+          As the backend is deployed so backend folder is only to 
+          understand the endpoints. No affect if skip the backend folder.
           
 * /user/register route for signup
 * /user/login route for signup
 * /notes/ for getting all notes for a particular user and the mush have logged in.
 * /notes/create for creating notes of a loggedin user.
 * /notes/delete/:notesId for deleting a note of a logged in user 
+* /notes/edit/:notesId for updating a note of a logged in user 
 * In all operation (Cretae,Read,Update,Delete), it's mandatory to pass the token in head.
 
 ### Frontend
